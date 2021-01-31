@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+    <head>
+
+        <title>Vue App</title>
+        
+       
+    </head>
+<body>
+    <div id='app'>
+   <div>
+
+    <span>
+      Hi  {{name}} 
+      <a v-bind:href="anchor">Google.com</a>
+    </span>    
+    
+   </div>     
+   
+    <input type="text" v-on:input="change_name">
+    <div v-html="link"></div>
+    <button v-on:click="sayHi">Say Hi</button>
+</div>
+<div>
+    
+</div>
+
+<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/vue@2"></script>
+<script  type="text/javascript" src="https://cdn.jsdelivr.net/npm/vue@2/dist/vue.js"></script>
+<script type="text/javascript" src="https://unpkg.com/vue@2.4.2"></script>
+<script type="text/javascript"  src="main.js"></script>
+    
+</body>
+</html>
